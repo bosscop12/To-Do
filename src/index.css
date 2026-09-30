@@ -35,7 +35,7 @@ body {
 }
 .item {
   transition: all 0.25s ease;
-  max-height: 120px;
+  max-height: 160px;
   overflow: hidden;
 }
 .item.out {
@@ -51,3 +51,9 @@ body {
 
 input, select { background: transparent; color: var(--text); }
 select option { color: #1f2937; }
+
+.due-over { background: #fee2e2; color: #991b1b; }
+.due-today { background: #fef9c3; color: #854d0e; }
+.due-future { background: rgba(156, 163, 175, 0.2); color: var(--muted); }
+.cat-tag { background: rgba(79, 70, 229, 0.1); color: var(--accent); }
+.item { max-height: 160px; }
